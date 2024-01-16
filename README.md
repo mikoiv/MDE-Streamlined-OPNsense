@@ -6,6 +6,8 @@ Contains the following aliases:
 
 ![screenshot](screenshot.png "Screenshot of aliases in OPNsense management")
 
+In firewall rules you can use the group mde_aliasgroup as target to allow connections.
+
 ## Documentation
 
 Onboarding devices using streamlined connectivity for Microsoft Defender for Endpoint:
