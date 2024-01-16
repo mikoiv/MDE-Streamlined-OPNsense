@@ -4,7 +4,7 @@ OPNsense aliases for MDE Streamlined connectivity method.
 
 Contains the following aliases:
 
-
+![screenshot](screenshot.png "Screenshot of aliases in OPNsense management")
 
 ## Documentation
 
