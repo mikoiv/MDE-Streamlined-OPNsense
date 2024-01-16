@@ -1,0 +1,249 @@
+{
+  "geoip": {
+    "url": ""
+  },
+  "aliases": {
+    "alias": {
+      "d33282d6-4692-42d8-bf54-d1fc3790f493": {
+        "enabled": "1",
+        "name": "dcecribl",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "dcecribl-bj54.westeurope-1.ingest.monitor.azure.com",
+        "categories": "",
+        "description": ""
+      },
+      "9f11998c-e45d-4e7f-af0a-9bdd99776bc7": {
+        "enabled": "1",
+        "name": "login_microsoftonline_com",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "login.microsoftonline.com",
+        "categories": "",
+        "description": ""
+      },
+      "0d90ba90-0d5c-4d3c-af88-d799a9c26a93": {
+        "enabled": "1",
+        "name": "mde_urltable",
+        "type": "urltable",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "1",
+        "content": "https://azureipranges.azurewebsites.net/getOPNSenseURLTable/Public/MicrosoftDefenderForEndpoint",
+        "categories": "",
+        "description": "MDE static IP ranges - OPNsense does not support wildcard DNS  - Source: https://azureipranges.azurewebsites.net/"
+      },
+      "afd6ab87-c669-4e48-8fdd-9186bf430361": {
+        "enabled": "1",
+        "name": "mde_edrcyberdata",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "eu-v20.events.data.microsoft.com",
+        "categories": "",
+        "description": "EDR Cyber Data EU (Mac & Linux) - If not in EU, replace with uk-v20, us-v20 or au-v20.events.data.microsoft.com"
+      },
+      "eb36f27b-1166-4ee0-9394-30b979eb744b": {
+        "enabled": "1",
+        "name": "mde_crl1",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "www.microsoft.com",
+        "categories": "",
+        "description": "CRL - Used when creating the SSL connection to MAPS for updating the CRL - Actual URLs are www.microsoft.com/pkiops/* and www.microsoft.com/pki/*"
+      },
+      "6c1d98be-5fc0-47dd-8cb0-d87a16ac16d3": {
+        "enabled": "1",
+        "name": "mde_crl2",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "ctldl.windowsupdate.com",
+        "categories": "",
+        "description": "CRL - Expands on the existing automatic root update mechanism technology to let certificates that are compromised or untrusted be specifically flagged as untrusted"
+      },
+      "fb202379-778a-48f9-ae17-670984a9ffc0": {
+        "enabled": "1",
+        "name": "mde_crl3",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "crl.microsoft.com",
+        "categories": "",
+        "description": "CRL  Certificate Revocation Lists - required to validate certificates / Used by Windows when creating the SSL connection to MAPS for updating the CRL"
+      },
+      "a900c74c-74e7-4b85-be97-2faaf71e4e57": {
+        "enabled": "1",
+        "name": "mde_update1",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "packages.microsoft.com",
+        "categories": "",
+        "description": "Linux updates (2309+ Insider fast version)"
+      },
+      "b6147a23-ab58-4495-994f-527eb082cfe3": {
+        "enabled": "1",
+        "name": "mde_update2",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "officecdn-microsoft-com.akamaized.net",
+        "categories": "",
+        "description": "Mac/Linux updates  (2309+ Insider fast version)"
+      },
+      "5c650030-7e7e-484b-9c74-9e1aa06034e3": {
+        "enabled": "1",
+        "name": "mde_update3",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "cdn.x.cp.wd.microsoft.com",
+        "categories": "",
+        "description": "Mac/Linux updates  (2309+ Insider fast version)"
+      },
+      "e87b271e-dc06-47a0-8757-9c8227db2ddb": {
+        "enabled": "1",
+        "name": "mde_update4",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "go.microsoft.com",
+        "categories": "",
+        "description": "MU / WU - Security intelligence and product updates"
+      },
+      "920bfc83-54d7-4429-ae3b-bf29bcfc6e31": {
+        "enabled": "1",
+        "name": "mde_update5",
+        "type": "host",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "definitionupdates.microsoft.com",
+        "categories": "",
+        "description": "MU / WU - Security intelligence and product updates"
+      },
+      "f30a48a1-029d-424d-8024-42b5351ce265": {
+        "enabled": "1",
+        "name": "mde_aliasgroup",
+        "type": "networkgroup",
+        "proto": "",
+        "interface": "",
+        "counters": "0",
+        "updatefreq": "",
+        "content": "mde_urltable\nmde_edrcyberdata\nmde_crl1\nmde_crl2\nmde_crl3\nmde_update1\nmde_update2\nmde_update3\nmde_update4\nmde_update5",
+        "categories": "",
+        "description": "All MDE targets grouped into one alias"
+      },
+      "bogons": {
+        "enabled": "1",
+        "name": "bogons",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "bogon networks (internal)"
+      },
+      "bogonsv6": {
+        "enabled": "1",
+        "name": "bogonsv6",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "bogon networks IPv6 (internal)"
+      },
+      "virusprot": {
+        "enabled": "1",
+        "name": "virusprot",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "overload table for rate limiting (internal)"
+      },
+      "sshlockout": {
+        "enabled": "1",
+        "name": "sshlockout",
+        "type": "external",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "abuse lockout table (internal)"
+      },
+      "__wan_network": {
+        "enabled": "1",
+        "name": "__wan_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "wan net"
+      },
+      "__lan_network": {
+        "enabled": "1",
+        "name": "__lan_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "lan net"
+      },
+      "__lo0_network": {
+        "enabled": "1",
+        "name": "__lo0_network",
+        "type": "internal",
+        "proto": "",
+        "interface": "",
+        "counters": "",
+        "updatefreq": "",
+        "content": "",
+        "categories": "",
+        "description": "Loopback net"
+      }
+    }
+  }
+}
