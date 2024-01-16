@@ -1,7 +1,7 @@
 # MDE-Streamlined-OPNsense
 
 OPNsense aliases for MDE Streamlined connectivity method:
-* **MDE IPs for Core MDE services** - Static IP ranges that can be used as alternative to the URLs. OPNsense does not support wildcard URLs in firewall rules, so we need to use the IP list.
+* **MDE IPs for Core MDE services** - Static IP ranges that can be used as alternative to the URLs. OPNsense does not support wildcard URLs in firewall rules so we need to use the IP list.
 * **MDE URLs for EDR Cyber Data, CRL, Updates** - this includes the Required URLs with the exception of SmartScreen (which is a wildcard URL).
 
 Contains the following aliases:
