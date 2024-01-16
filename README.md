@@ -6,7 +6,7 @@ Contains the following aliases:
 
 ![screenshot](alias_screenshot.png "Screenshot of aliases in OPNsense management")
 
-In firewall rules you can use the group mde_aliasgroup as target to allow connections.
+In firewall rules you can use the group **mde_aliasgroup** as target to allow connections.
 
 ## Documentation
 
